@@ -17,6 +17,7 @@ tell application "System Events"
 
     -- remap vim
     keystroke ":map j gj"
+    keystroke return
     keystroke ":map k gk"
     keystroke return
 end tell
